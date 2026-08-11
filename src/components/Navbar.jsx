@@ -32,8 +32,12 @@ export default function Navbar() {
         }`}>
 
           {/* Logo */}
-          <Link to="/" className="font-display font-bold text-white text-sm tracking-tight cursor-pointer hover:text-[#FF2D78] transition-colors duration-200">
-            Crealo Estudio
+          <Link to="/" className="flex items-center cursor-pointer">
+            <img
+              src="/logos/Isotipo%20Crealo.png"
+              alt="Crealo Estudio"
+              className="h-8 w-auto object-contain"
+            />
           </Link>
 
           {/* Desktop nav */}
