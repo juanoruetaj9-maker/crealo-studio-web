@@ -1,11 +1,11 @@
-# Axolote Studio — Estado y continuidad del proyecto
+# Crealo Estudio — Estado y continuidad del proyecto
 
 > **Para Claude / Chat de Proyectos:** este archivo es el contexto completo para retomar el trabajo. Léelo entero antes de continuar. El usuario es **Juan**. Responde en español.
 
 ---
 
 ## 1. Qué es
-**Axolote Studio** — sitio web de marketing del estudio creativo digital del sureste mexicano (bodas, XV años, branding, landing pages). Solo frontend, sin backend ni base de datos: es un sitio estático + demos interactivas de portafolio.
+**Crealo Estudio** — sitio web de marketing del estudio creativo digital del sureste mexicano (bodas, XV años, branding, landing pages). Solo frontend, sin backend ni base de datos: es un sitio estático + demos interactivas de portafolio.
 
 - **Stack:** React 19 + Vite 8 + Tailwind CSS v4 + React Router v7 + framer-motion.
 - **Dev local:** `npm run dev` → http://localhost:5173
@@ -35,15 +35,16 @@ El usuario dio carta blanca completa para rediseñar sin restricciones de paleta
   2. Código nuevo fusionado (sistema de plantillas/paquetes/demos, ~1840 líneas): sin vulnerabilidades HIGH/MEDIUM. El único `dangerouslySetInnerHTML` nuevo (JSON-LD en `PlantillaDetalle.jsx`) usa exclusivamente datos estáticos hardcodeados en `src/data/plantillas.js`, no input de usuario — no explotable. El parámetro de ruta `:id` solo se usa como clave de `.find()` contra un arreglo estático, nunca para indexar/evaluar.
   - Hallazgo menor persistente, no crítico: las imágenes de portafolio/demos/plantillas usan stock de Unsplash (no son fotos reales de clientes) — avisar a Juan antes de usarlo en un pitch real.
 - ⚠️ **Sincronización de repo (2026-07-27):** la copia local estaba 15 commits atrás de `origin/main` (todo el trabajo de plantillas/paquetes se había hecho fuera de esta sesión/máquina). Se hizo `git pull` + merge (conflicto menor resuelto en `Contacto.jsx`, solo la clase de color del input) y push exitoso. **Antes de asumir que el repo local está al día en la próxima sesión, correr `git fetch && git log HEAD..origin/main --oneline` para confirmar que no hay divergencia de nuevo.**
+- ✅ **Rebranding → Crealo Estudio (2026-08-10):** por decisión del equipo ejecutivo, Axolote Studio pasa a llamarse **Crealo Estudio**. Se renombró todo el código, textos, meta/SEO, favicon/logos, `package.json`, sitemap, carpetas con "Axolote" en el nombre y el repo de GitHub (`crealo-studio-web`). Correo nuevo en código: `hola@crealoestudio.mx`. **Pendiente externo:** registrar el dominio `crealoestudio.mx` + correo, renombrar el proyecto en Vercel, y crear/renombrar redes sociales a `crealo_estudio_digital`.
 
 ## 4. Infraestructura / accesos
-- **Repo GitHub (privado):** https://github.com/juanoruetaj9-maker/axolote-studio-web (rama `main`)
-- Sin Supabase, sin variables de entorno, sin deploy conocido documentado aquí — si ya está en Vercel/Netlify, anotar la URL la próxima vez que se toque.
+- **Repo GitHub (privado):** https://github.com/juanoruetaj9-maker/crealo-studio-web (rama `main`)
+- Sin Supabase, sin variables de entorno. Deploy en Vercel: el proyecto local aún se llama `axolote-studio-web` (`.vercel/project.json`) — pendiente renombrarlo en el dashboard de Vercel; el sitemap y las URLs compartidas ya apuntan a `https://crealoestudio.mx` (dominio aún por registrar).
 
 ## 5. Puesta en marcha en una máquina nueva
 ```bash
-git clone https://github.com/juanoruetaj9-maker/axolote-studio-web.git
-cd axolote-studio-web
+git clone https://github.com/juanoruetaj9-maker/crealo-studio-web.git
+cd crealo-studio-web
 npm install
 npm run dev
 ```

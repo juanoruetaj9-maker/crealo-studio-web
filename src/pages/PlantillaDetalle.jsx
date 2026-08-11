@@ -51,7 +51,7 @@ export default function PlantillaDetalle() {
 
   const estiloParaTitulo = ESTILOS.find((e) => e.id === plantilla?.estilo)
   useDocumentMeta({
-    title: plantilla ? `${plantilla.nombre} — Invitación ${estiloParaTitulo?.nombre} | Axolote Studio` : 'Plantilla no encontrada | Axolote Studio',
+    title: plantilla ? `${plantilla.nombre} — Invitación ${estiloParaTitulo?.nombre} | Crealo Estudio` : 'Plantilla no encontrada | Crealo Estudio',
     description: plantilla?.descripcion,
   })
 
@@ -84,7 +84,7 @@ export default function PlantillaDetalle() {
       price: precioEntrada,
       priceCurrency: 'MXN',
       availability: 'https://schema.org/InStock',
-      url: `https://axolote-studio-web.vercel.app/plantillas/detalle/${plantilla.id}`,
+      url: `https://crealoestudio.mx/plantillas/detalle/${plantilla.id}`,
     },
   }
 

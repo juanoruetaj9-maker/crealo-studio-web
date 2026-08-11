@@ -40,7 +40,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link to="/" className="font-display font-black text-white text-lg tracking-tight hover:text-[#FF2D78] transition-colors duration-200 cursor-pointer">
-              Axolote Studio
+              Crealo Estudio
             </Link>
             <p className="text-[12px] text-[#444] mt-2 max-w-xs leading-relaxed">
               Estudio creativo y digital · México<br />
@@ -61,7 +61,7 @@ export default function Footer() {
 
           {/* Social + CTA */}
           <div className="flex items-center gap-4">
-            <a href="https://www.instagram.com/axolote_studio_digital" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.instagram.com/crealo_estudio_digital" target="_blank" rel="noopener noreferrer"
               aria-label="Instagram"
               className="w-9 h-9 rounded-lg border border-white/10 text-[#555] hover:text-white hover:border-white/30 flex items-center justify-center transition-all duration-200 cursor-pointer"
             >
@@ -97,7 +97,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="mt-8 pt-6 border-t border-white/8 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-[#333] font-medium">
-          <p>© {year} Axolote Studio — Todos los derechos reservados</p>
+          <p>© {year} Crealo Estudio — Todos los derechos reservados</p>
           <p>Parte del ecosistema <span className="text-[#444]">Social Ventura</span> · México</p>
         </div>
       </div>

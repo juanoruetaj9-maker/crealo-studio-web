@@ -1,6 +1,6 @@
 export default function FloatingWhatsApp() {
   const waUrl =
-    'https://wa.me/529932228936?text=Hola%20Axolote%20Studio%2C%20me%20gustar%C3%ADa%20cotizar%20un%20proyecto.'
+    'https://wa.me/529932228936?text=Hola%20Crealo%20Estudio%2C%20me%20gustar%C3%ADa%20cotizar%20un%20proyecto.'
 
   return (
     <a

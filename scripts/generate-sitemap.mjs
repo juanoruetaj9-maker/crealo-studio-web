@@ -7,7 +7,7 @@ import { dirname, resolve } from 'node:path'
 import { ESTILOS, PLANTILLAS } from '../src/data/plantillas.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const SITE_URL = 'https://axolote-studio-web.vercel.app'
+const SITE_URL = 'https://crealoestudio.mx'
 
 const rutasEstaticas = [
   '/',

@@ -1,4 +1,4 @@
-# Axolote Studio — Sitio Web
+# Crealo Estudio — Sitio Web
 
 ## Revisión de código
 
@@ -15,7 +15,7 @@ hosting y cuentas (no aplica RLS/multi-tenant porque no hay backend/DB aquí).
 - Cualquier API key de terceros (formularios, analytics, mapas) que se agregue
   a futuro: revisar si debe ir server-side antes de exponerla en el frontend.
 - 2FA activo en las cuentas de plataforma (GitHub, Vercel) — es el sitio
-  público de la marca, un acceso comprometido afecta la reputación de Axolote
+  público de la marca, un acceso comprometido afecta la reputación de Crealo
   Studio directamente.
 - Rama `main` protegida con PR obligatorio si en algún momento se suma alguien
   externo al equipo con acceso de push.

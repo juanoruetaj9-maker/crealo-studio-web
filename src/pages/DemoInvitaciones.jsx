@@ -260,7 +260,7 @@ export default function DemoInvitaciones() {
           background: 'linear-gradient(135deg, #7f1d1d 0%, #be123c 50%, #9f1239 100%)',
         }}
       >
-        <p className="text-rose-300 text-xs uppercase tracking-widest mb-4">Demo creado por Axolote Studio</p>
+        <p className="text-rose-300 text-xs uppercase tracking-widest mb-4">Demo creado por Crealo Estudio</p>
         <h2 className="text-4xl md:text-5xl font-light mb-4" style={SERIF}>
           ¿Te enamoraste de esta invitación?
         </h2>

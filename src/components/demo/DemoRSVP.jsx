@@ -3,7 +3,7 @@ import DemoCardShell from './DemoCardShell'
 
 // modo="estatico" (Fase 1): mockup del Google Form brandado, no envía datos.
 // FASE 2: aquí se enlazará el Google Form real, preconfigurado y brandado
-// para el evento del cliente (Axolote no gestiona la base de datos de RSVP).
+// para el evento del cliente (Crealo no gestiona la base de datos de RSVP).
 export default function DemoRSVP({ evento, paquete, modo = 'estatico' }) {
   return (
     <DemoCardShell label="RSVP" data-evento={evento?.id} data-paquete={paquete?.id} data-modo={modo}>

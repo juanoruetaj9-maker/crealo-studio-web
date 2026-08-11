@@ -30,7 +30,7 @@ export default function ProyectoBodasMariana() {
 
   return (
     <div className="min-h-screen bg-white">
-      <DemoBanner cta="Hola! Vi la invitación de boda de Axolote Studio y me encantó. Quiero una para mi evento." />
+      <DemoBanner cta="Hola! Vi la invitación de boda de Crealo Estudio y me encantó. Quiero una para mi evento." />
 
       {/* Hero */}
       <section

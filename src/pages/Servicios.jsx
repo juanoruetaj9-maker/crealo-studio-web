@@ -16,7 +16,7 @@ const inView = {
 const formatMXN = (n) => `$${n.toLocaleString('es-MX')}`
 
 function PriceCard({ nombre, precio, entrega, incluye, badge, destacado }) {
-  const waLink = `${WA}?text=${encodeURIComponent(`Hola, me interesa el paquete ${nombre} de Axolote Studio`)}`
+  const waLink = `${WA}?text=${encodeURIComponent(`Hola, me interesa el paquete ${nombre} de Crealo Estudio`)}`
 
   return (
     <div className={`relative rounded-2xl p-7 flex flex-col h-full bg-white shadow-sm transition-all duration-200 ${
@@ -191,7 +191,7 @@ export default function Servicios() {
             Cuéntanos tu proyecto y te recomendamos el paquete ideal sin costo y sin compromisos.
           </p>
           <a
-            href={`${WA}?text=${encodeURIComponent('Hola, necesito orientación para elegir un paquete de Axolote Studio')}`}
+            href={`${WA}?text=${encodeURIComponent('Hola, necesito orientación para elegir un paquete de Crealo Estudio')}`}
             target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#FF2D78] text-white font-bold rounded-xl hover:bg-[#E0155F] transition-colors text-sm cursor-pointer"
           >

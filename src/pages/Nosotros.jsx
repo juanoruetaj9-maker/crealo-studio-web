@@ -63,7 +63,7 @@ export default function Nosotros() {
               <div className="rounded-xl overflow-hidden aspect-[4/5] border border-black/8">
                 <img
                   src="/imagenes/nosotros/studio.jpg"
-                  alt="Equipo Axolote Studio"
+                  alt="Equipo Crealo Estudio"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
               </div>
@@ -76,7 +76,7 @@ export default function Nosotros() {
               </h2>
               <div className="flex flex-col gap-4 text-sm text-[#666] leading-relaxed">
                 <p>
-                  Axolote Studio nació con una pregunta sencilla: ¿por qué las bodas, los XV años y las celebraciones más importantes de la vida terminan con invitaciones digitales genéricas, sin identidad ni cuidado visual?
+                  Crealo Estudio nació con una pregunta sencilla: ¿por qué las bodas, los XV años y las celebraciones más importantes de la vida terminan con invitaciones digitales genéricas, sin identidad ni cuidado visual?
                 </p>
                 <p>
                   Bodas soñadas con invitaciones de plantilla. XV años cuidados al detalle con una tarjeta digital genérica. Baby showers y cumpleaños especiales sin nada que reflejara su importancia. El problema no era falta de cariño por el evento, sino falta de acceso a diseño profesional real y accesible.
@@ -97,7 +97,7 @@ export default function Nosotros() {
       <div className="relative h-72 md:h-96 overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1518638150340-f706e86654de?w=1600&q=80"
-          alt="Axolote Studio en México"
+          alt="Crealo Estudio en México"
           loading="lazy"
           className="w-full h-full object-cover"
         />
@@ -107,7 +107,7 @@ export default function Nosotros() {
             "Te ayudamos a verte profesional de una forma clara, moderna y sin complicarte."
           </p>
           <p className="text-[#666] text-xs mt-4 uppercase tracking-[0.25em] font-semibold">
-            — Promesa de Axolote Studio
+            — Promesa de Crealo Estudio
           </p>
         </div>
       </div>
@@ -187,7 +187,7 @@ export default function Nosotros() {
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(8,8,8,0.6)' }} />
         <div className="absolute inset-0 flex items-center justify-center">
           <p className="text-[11px] font-bold text-white/40 uppercase tracking-[0.3em]">
-            Axolote Studio · México
+            Crealo Estudio · México
           </p>
         </div>
       </div>
@@ -206,7 +206,7 @@ export default function Nosotros() {
                 Parte del ecosistema Social Ventura
               </h3>
               <p className="text-sm text-[#555] leading-relaxed">
-                Axolote Studio pertenece a Social Ventura, un ecosistema de marcas tecnológicas y creativas construido en México con vocación de largo plazo. Esto significa respaldo, procesos sólidos y una red de capacidades que crece con el tiempo.
+                Crealo Estudio pertenece a Social Ventura, un ecosistema de marcas tecnológicas y creativas construido en México con vocación de largo plazo. Esto significa respaldo, procesos sólidos y una red de capacidades que crece con el tiempo.
               </p>
             </div>
           </motion.div>

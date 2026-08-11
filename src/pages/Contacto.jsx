@@ -3,7 +3,7 @@ import { MessageCircle, Mail, MapPin, Clock, ArrowRight } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 const WHATSAPP_NUMBER = '529932228936'
-const EMAIL = 'hola@axolotestudio.mx'
+const EMAIL = 'hola@crealoestudio.mx'
 
 const inView = (delay = 0) => ({
   initial: { opacity: 0, y: 20 },
@@ -14,7 +14,7 @@ const inView = (delay = 0) => ({
 
 function buildWaMessage({ nombre, tipo, mensaje }) {
   const lines = [
-    `Hola Axolote Studio`,
+    `Hola Crealo Estudio`,
     ``,
     `*Nombre:* ${nombre || '(sin nombre)'}`,
     `*Tipo de proyecto:* ${tipo || '(sin especificar)'}`,
@@ -150,7 +150,7 @@ export default function Contacto() {
                 </div>
 
                 <a
-                  href={`mailto:${EMAIL}?subject=Cotización de proyecto&body=Hola Axolote Studio, me gustaría cotizar...`}
+                  href={`mailto:${EMAIL}?subject=Cotización de proyecto&body=Hola Crealo Estudio, me gustaría cotizar...`}
                   className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl border border-black/10 text-[#555] text-sm font-semibold hover:border-[#FF2D78] hover:text-[#FF2D78] transition-all cursor-pointer"
                 >
                   <Mail size={15} />

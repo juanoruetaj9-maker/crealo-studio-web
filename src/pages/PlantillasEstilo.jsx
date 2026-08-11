@@ -10,7 +10,7 @@ export default function PlantillasEstilo() {
   const plantillas = PLANTILLAS.filter((p) => p.estilo === estiloId)
 
   useDocumentMeta({
-    title: estilo ? `Invitaciones ${estilo.nombre} | Axolote Studio` : 'Plantillas | Axolote Studio',
+    title: estilo ? `Invitaciones ${estilo.nombre} | Crealo Estudio` : 'Plantillas | Crealo Estudio',
     description: estilo ? estilo.textoSeo.slice(0, 155).trim() + '…' : undefined,
   })
 

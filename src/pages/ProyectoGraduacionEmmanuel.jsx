@@ -31,7 +31,7 @@ export default function ProyectoGraduacionEmmanuel() {
 
   return (
     <div className="min-h-screen bg-white">
-      <DemoBanner cta="Hola! Vi la invitación de graduación de Axolote Studio. Quiero una para mi evento." />
+      <DemoBanner cta="Hola! Vi la invitación de graduación de Crealo Estudio. Quiero una para mi evento." />
 
       {/* Hero */}
       <section

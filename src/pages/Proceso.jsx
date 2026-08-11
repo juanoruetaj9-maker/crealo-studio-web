@@ -221,7 +221,7 @@ export default function Proceso() {
             >
               Cotizar proyecto <ArrowRight size={14} />
             </Link>
-            <a href="https://wa.me/529932228936?text=Hola%20Axolote%20Studio%2C%20tengo%20una%20pregunta."
+            <a href="https://wa.me/529932228936?text=Hola%20Crealo%20Estudio%2C%20tengo%20una%20pregunta."
               target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-7 py-3.5 border-2 border-black/20 text-black font-semibold rounded-xl text-sm hover:border-black/40 transition-colors cursor-pointer"
             >

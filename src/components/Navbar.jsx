@@ -33,7 +33,7 @@ export default function Navbar() {
 
           {/* Logo */}
           <Link to="/" className="font-display font-bold text-white text-sm tracking-tight cursor-pointer hover:text-[#FF2D78] transition-colors duration-200">
-            Axolote Studio
+            Crealo Estudio
           </Link>
 
           {/* Desktop nav */}

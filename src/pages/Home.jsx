@@ -281,7 +281,7 @@ export default function Home() {
               Cotizar mi proyecto <ArrowRight size={15} />
             </Link>
             <a
-              href="https://wa.me/529932228936?text=Hola%20Axolote%20Studio%2C%20quiero%20cotizar."
+              href="https://wa.me/529932228936?text=Hola%20Crealo%20Estudio%2C%20quiero%20cotizar."
               target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 border-2 border-black/20 text-black font-semibold rounded-xl text-sm hover:border-black/40 transition-colors duration-200 cursor-pointer"
             >
@@ -290,7 +290,7 @@ export default function Home() {
           </motion.div>
 
           <div className="mt-16 pt-8 border-t border-black/15 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-black/40 font-semibold uppercase tracking-widest">
-            <span>hola@axolotestudio.mx</span>
+            <span>hola@crealoestudio.mx</span>
             <span>México · Servicio 100% remoto</span>
           </div>
         </div>

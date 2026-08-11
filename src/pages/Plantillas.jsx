@@ -11,8 +11,8 @@ const PINTEREST_WA_LINK = `https://wa.me/529932228936?text=${encodeURIComponent(
 
 export default function Plantillas() {
   useDocumentMeta({
-    title: 'Plantillas de Invitaciones Digitales | Axolote Studio',
-    description: 'Explora la galería de plantillas de invitaciones digitales de Axolote Studio para bodas, XV años, baby shower y cumpleaños. Elige tu estilo y lo personalizamos para ti.',
+    title: 'Plantillas de Invitaciones Digitales | Crealo Estudio',
+    description: 'Explora la galería de plantillas de invitaciones digitales de Crealo Estudio para bodas, XV años, baby shower y cumpleaños. Elige tu estilo y lo personalizamos para ti.',
   })
 
   const [eventoFiltro, setEventoFiltro] = useState('todos')

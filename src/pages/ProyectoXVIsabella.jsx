@@ -21,7 +21,7 @@ export default function ProyectoXVIsabella() {
 
   return (
     <div className="min-h-screen" style={{ background: '#faf7ff' }}>
-      <DemoBanner cta="Hola! Vi la invitación de XV años de Axolote Studio y me encantó. Quiero una para mi evento." />
+      <DemoBanner cta="Hola! Vi la invitación de XV años de Crealo Estudio y me encantó. Quiero una para mi evento." />
 
       {/* Hero */}
       <section
